@@ -1,0 +1,54 @@
+
+
+*{padding:0; margin:0;}
+#wrapper{border:solid grat; padding:10px; }
+#header{padding:10px}
+#navbar{text-transform: uppercase; margin-top:10px;}
+#menu-left {margin: 10px; float: left;}
+#menu-right {margin: 10px; float: right; width: 40%}
+
+#container{}
+#container::after{content: " "; display:block; clear:both;}
+#left-panel{padding: 30px; height:auto; width: 45%; float: left;}
+#right-panel{padding: 30px; width:45%; height:auto; float: right;}
+
+
+.hide {
+	font-family: Verdana;
+	font-size: 22px;
+	list-style: none;  
+	display: inline;
+	padding-left:10px;
+	text-decoration: none;
+	color: black;
+	
+}
+
+.fa {
+	margin: 10px;
+	text-align: center;
+	padding-left: 20px;
+}
+
+
+img {
+  border-radius: 3%;
+  height: auto;
+  max-width: 550px;
+ 
+}
+
+.pealkiri {
+	
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	font-size: 40px;
+	font-style: italic;
+	
+}
+
+.information {
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	font-size: 20px;
+	font-style: italic;
+	padding-left: 40px;
+}
